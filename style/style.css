@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'Montserrat', sans-serif;
-    src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap);
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 }
 
 @font-face {
@@ -20,8 +20,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url("./webfonts/fa-brands-400.eot");
-    src: url("./webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+    src: url('./webfonts/fa-brands-400.eot');
+    src: url('./webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'), url('../webfonts/fa-brands-400.woff2') format('woff2'), url('../webfonts/fa-brands-400.woff') format('woff'), url('../webfonts/fa-brands-400.ttf') format('truetype'), url('../webfonts/fa-brands-400.svg#fontawesome') format('svg');
 }
 
 .fab {
@@ -54,17 +54,22 @@ h3 {
 
 header div {
     height: 70px;
-    width: 100%;
+    max-width: 100%;
+    min-width: 1000px;
     border: 1px black solid;
     margin: 0;
+    vertical-align: middle;
 }
 
-.logo {
-    position: absolute;
-    left: 140px;
-    top: 15px;
-    /* margin-left: 140px; */
+.header-inner-box {
+    height: 40px;
+    width: fit-content;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 140px;
 }
+
+.button-sign-in {}
 
 
 /* 
