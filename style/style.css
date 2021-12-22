@@ -1,0 +1,88 @@
+:root {
+    --dark-shade-100pr: #1f2041;
+    --dark-shade-75pr: #1f2041BF;
+    --dark-shade-50pr: #1F204180;
+    --dark-shade-25pr: #1F204140;
+    --dark-shade-5pr: #1F20410D;
+    --purple: #BC9CFF;
+    --green: #6FCF97;
+    --purple-gradient-color: #8BA4F9;
+    --green-gradient-color: #66D2EA;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap);
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("./webfonts/fa-brands-400.eot");
+    src: url("./webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-weight: regular;
+    font-size: 12pt;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 19pt;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+header div {
+    height: 70px;
+    width: 100%;
+    border: 1px black solid;
+    margin: 0;
+}
+
+.logo {
+    position: absolute;
+    left: 140px;
+    top: 15px;
+    /* margin-left: 140px; */
+}
+
+
+/* 
+https://fonts.google.com/icons?selected=Material%20Icons%3Alocation_city%3A    - building url
+https://fonts.google.com/icons?selected=Material%20Icons%3Ainsert_emoticon%3A  - smiling face url
+https://fonts.google.com/icons?selected=Material%20Icons%3Astar%3A - star 
+https://fonts.google.com/icons?selected=Material%20Icons%3Astar_border%3A - star border
+https://fonts.google.com/icons?selected=Material%20Icons%3Afavorite%3A - heart 
+https://fonts.google.com/icons?selected=Material%20Icons%3Afavorite_border%3A - heart border
+https://fonts.google.com/icons?selected=Material%20Icons%3Aarrow_forward%3A - arrow
+https://fonts.google.com/icons?selected=Material%20Icons%3Aexpand_more%3A - arrow down (expand)
+https://fonts.google.com/icons?selected=Material%20Icons%3Aarrow_back%3A - arrow back
+
+<i class="fab fa-facebook-square"></i>    - html для facebook
+<i class="fab fa-instagram"></i>      - html для instagram
+<i class="fab fa-twitter"></i>    - html для twitter
+
+
+
+
+*/
